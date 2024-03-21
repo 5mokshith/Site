@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.651),rgba(255, 255, 5, 0.382));
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+nav button {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #454242;
+    color: #fff;
+}
+nav button:active{
+    background-color: #999393;
+
+}
+
+.container {
+   /* max-width: 1200px;*/
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.data-structures,.java-language {
+    background-color: #fff;
+    padding: 10%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-structures,.java-language p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+ iframe {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.574);
+    transition: scale 0.3s ease;
+}
+ iframe:hover{
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.449);
+    scale: 0.9;
+}
+
+@media (max-width: 768px) {
+    .video-row iframe {
+        width: calc(50% - 24px); /* Adjusted width for smaller screens */
+    }
+}

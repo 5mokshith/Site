@@ -1,0 +1,90 @@
+body
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to left, #3498db, #07120b);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container h1{
+    font-size: 25px;
+    margin: 35px;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 10% auto;
+    width: 400px;
+    padding: 2%;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.container p{
+    width: 100%;
+    height: 35px;
+    padding: 5%;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.249);
+}
+
+.container #Ultimate:hover
+{
+    background-color: #ef1e0f57;
+}
+.container #Ultimate:active{
+    color: white;
+    background-color: #ef1e0fa1;
+}
+
+.container p:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.349);
+}
+
+.container p:active
+{
+    background-color: #07120b15;
+}
+.container button
+{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.container button:hover
+{
+    background-color: rgb(17, 134, 17);
+    cursor: pointer;
+}
+
+.container button:active{
+    background-color: rgb(30, 138, 30);
+}
+
+
+main .container a{
+    text-decoration: none;
+    color: #07120b;
+}
+
+
+@media screen and (max-width : 480px) {
+    .container
+    {
+        width: 90dvw;
+        margin-top:30%;
+    }
+}
