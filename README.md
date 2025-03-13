@@ -82,10 +82,15 @@ This project can be hosted using **GitHub Pages**:
 
 ## Screenshots
 
-![Home Page](images/homepage-screenshot.png)
-*The main landing page showing different learning paths*
+![Home Page]![Screenshot 2025-03-13 200709](https://github.com/user-attachments/assets/a50f0b30-831b-4f3a-96dc-269f7a8a526f)
 
-![Learning Module](images/module-screenshot.png)
+
+![Screenshot 2025-03-13 200726](https://github.com/user-attachments/assets/470ec9bd-e9b7-4547-9c5e-973224375d35)
+
+
+
+![Learning Module] ![Screenshot 2025-03-13 200818](https://github.com/user-attachments/assets/37d30dca-4c94-4098-b936-89d45124675c)
+
 *Example of a video learning module*
 
 ## Future Development Plans
